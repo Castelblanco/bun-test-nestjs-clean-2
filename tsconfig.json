@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "CommonJS",
+        "target": "ESNext",
+        "moduleResolution": "Node",
+        "declaration": true,
+        "moduleDetection": "force",
+        "resolveJsonModule": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "allowSyntheticDefaultImports": true,
+        "strictNullChecks": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./",
+        "baseUrl": "./",
+        "skipLibCheck": true,
+        "incremental": true,
+        "types": ["bun-types"],
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    },
+    "include": ["src", "package.json"]
+}
